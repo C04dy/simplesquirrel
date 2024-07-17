@@ -11,6 +11,8 @@ Yet another simple binding in C++11 for [Squirrel scripting language](http://www
 
 API Documentation can be found here: <https://matusnovak.github.io/simplesquirrel/doxygen/group__simplesquirrel.html>
 
+Forked for VergodtEngine
+
 ## Features
 
 * MIT licensed
@@ -250,7 +252,7 @@ int main(){
     vm.addFunc("myCppFunc2", func);
 
     // Bind via lambda
-    vm.addFunc("myCppFuncLambda, [](int a, int b) -> std::string {
+    vm.addFunc("myCppFuncLambda", [](int a, int b) -> std::string {
         return std::to_string(a + b);
     });
 
