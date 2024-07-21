@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.1)
+cmake_minimum_required(VERSION 3.27.7)
 project (simplesquirrel)
 include(${CMAKE_ROOT}/Modules/ExternalProject.cmake)
 
